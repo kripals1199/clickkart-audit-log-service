@@ -1,0 +1,54 @@
+${AnsiColor.BRIGHT_BLUE}
+#############################################################################################
+#                                                                                           #
+#      █████╗ ██╗   ██╗██████╗ ██╗████████╗    ██╗      ██████╗  ██████╗                    #
+#     ██╔══██╗██║   ██║██╔══██╗██║╚══██╔══╝    ██║     ██╔═══██╗██╔════╝                    #
+#     ███████║██║   ██║██║  ██║██║   ██║       ██║     ██║   ██║██║  ███╗                   #
+#     ██╔══██║██║   ██║██║  ██║██║   ██║       ██║     ██║   ██║██║   ██║                   #
+#     ██║  ██║╚██████╔╝██████╔╝██║   ██║       ███████╗╚██████╔╝╚██████╔╝                   #
+#     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝       ╚══════╝ ╚═════╝  ╚═════╝                    #
+#                                                                                           #
+#                                 🔒  AUDIT LOG SERVICE  🔒                                 #
+#                                                                                           #
+#############################################################################################
+
+${AnsiColor.BRIGHT_GREEN}
+┌────────────────────────────── APPLICATION ─────────────────────────────────────────────────┐
+│ Name             : ${spring.application.name}                                              │
+│ Version          : ${application.version}                                                  │
+│ Environment      : ${spring.profiles.active}                                               │
+│ Server Port      : ${server.port}                                                          │
+│ Context Path     : ${server.servlet.context-path:/}                                        │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+
+${AnsiColor.BRIGHT_CYAN}
+┌────────────────────────────── PLATFORM ────────────────────────────────────────────────────┐
+│ Java Version     : ${java.version}                                                         │
+│ Spring Boot      : ${spring-boot.formatted-version}                                        │
+│ Operating System : ${os.name} ${os.version}                                                │
+│ User             : ${user.name}                                                            │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+
+${AnsiColor.BRIGHT_YELLOW}
+┌────────────────────────────── BUILD INFO ──────────────────────────────────────────────────┐
+│ Build Time       : ${build.time}                                                           │
+│ Git Branch       : ${git.branch}                                                           │
+│ Git Commit       : ${git.commit.id.abbrev}                                                 │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+
+${AnsiColor.BRIGHT_MAGENTA}
+┌────────────────────────────── FEATURES ────────────────────────────────────────────────────┐
+│ ✓ Append-Only Hash-Chained Audit Trail                                                     │
+│ ✓ Tamper Detection via Chain Integrity Verification                                        │
+│ ✓ Central Sink for Every Platform Service                                                  │
+│ ✓ Correlation ID Enforcement on Every Inbound Request                                      │
+│ ✓ Pessimistic-Lock Serialized Chain Appends                                                │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+
+${AnsiColor.BRIGHT_WHITE}
+#############################################################################################
+#                  🚀 ClickKart Audit Log Service Started Successfully 🚀                   #
+#                Tamper-Evident • Hash-Chained • Central • Compliance-Ready                 #
+#############################################################################################
+
+${AnsiColor.DEFAULT}
