@@ -1,4 +1,4 @@
-// src/main/java/com/clickkart/auditlog/exception/AuditLogExceptionHandler.java
+// src/main/java/com/clickkart/auditlog/exception/GlobalExceptionHandler.java
 package com.clickkart.auditlog.exception;
 
 import com.clickkart.auditlog.constant.MdcKeys;
@@ -20,7 +20,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 /** Central mapping to the standard {@link ApiResponse} envelope (Rule 12) - own copy of the pattern established in Auth Service (Rule 4). */
 @Slf4j
 @RestControllerAdvice
-public class AuditLogExceptionHandler {
+public class GlobalExceptionHandler {
 
     private static final String DEFAULT_FIELD_ERROR_MESSAGE = "invalid value";
 
